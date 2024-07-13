@@ -14,8 +14,6 @@ body{
     max-width: 1920px;
     background: rgba(255, 144, 14, 0.1);
     
-    
-
 }
 
 .nav ul {
@@ -189,4 +187,168 @@ body{
     
 
     
+}
+
+
+.love-feature{
+    width: 80%;
+    height: 1059px;
+    
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+}
+.love-feature-text{
+    
+    height: 982px;
+    width: 50%;
+
+}
+
+.love-feature-img{
+    
+    height: auto;
+    width: 50%;
+}
+.love-maintext{
+    width: 80%;
+    padding-left: 20px;
+}
+.love-feature-img img{
+    height: 94%;
+    width: 100%;
+}
+.love-maintext h1{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px;
+}
+.love-feature p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 17px;
+}
+.love-contein{
+    
+    width: 80%;
+    padding-left: 20px;
+    border-radius: 8px;
+    height: 171px;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.love-contein h5{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.love-contein p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.love-text-conteinar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.ex-b{
+    position: absolute;
+    left: 43%;
+    top:2959px;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+
+   background: rgb(255, 144, 14);
+}
+.ex-text{
+    
+    margin: 46px 42px 46px 42px;
+}
+.ex-text h1{
+    color: white;
+    font-size:65px;
+    text-align: center;
+}
+.ex-text p{
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+}
+
+
+@media screen and (max-width:576px) {
+    .love-feature {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding:15px ;
+    }
+    .love-feature-tex{
+        width: 100%;
+
+    }
+    .love-maintext h1{
+        font-size: 12px;
+    }
+    .feature-text {
+        width: 100%;
+    }
+    .love-maintext{
+        padding: 0px;
+    }
+    
+    .love-feature-img {
+        width: 100%;
+        margin-top: 20px; 
+    }
+    .love-feature-img img {
+        height: 100%;
+        width: 100%; 
+    }
+    .love-contein p{
+        font-size: 12px;
+    }
+    .love-contein h5{
+        font-size: 13px;
+    }
+    .love-contein{
+        padding: 15px;
+    }
+    .love-text-conteinar {
+        gap: 15px;
+    }
+
+    .love-feature p {
+        font-size: 12px;
+    }
+    .love-maintext h1 {
+        font-size: 16px; 
+    }
+
+
 }
