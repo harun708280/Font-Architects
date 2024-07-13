@@ -105,7 +105,7 @@ body{
 @media screen and (max-width:576px) {
     .nav{
         flex-direction: column;
-        padding-top: 10px;
+        
     }
     .b-img img{
         width: 100%;
@@ -177,9 +177,10 @@ body{
 
     .feature-conteinar{
         flex-direction: column-reverse;
+        gap: 30px;
     }
     .feature-img{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .feature-img img{
         width: 100%;
