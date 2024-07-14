@@ -333,6 +333,9 @@ body{
     .love-contein{
         width: 100%;
     }
+    .love-maintext h1{
+        font-size: 20px;
+    }
 
 
 
